@@ -78,7 +78,7 @@ git clone https://github.com/ai-MAYANK/PRODIGY_WD_03.git
 
 ### 3. Launch the game
 
-Simply open **index.html** in your preferred web browser.
+Simply open **ticTacToe.html** in your preferred web browser.
 
 No additional installation or dependencies are required.
 
