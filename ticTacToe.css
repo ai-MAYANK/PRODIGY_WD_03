@@ -1,0 +1,131 @@
+*{
+    margin:0;
+    padding:0;
+}
+.titleBox{
+    
+    margin:2rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    position: fixed;
+    width:14%;
+    background-color: #fff;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+}
+body{
+    background-color: #548687;
+    text-align: center;
+}
+.container{
+    height:70vh;
+    display:none;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height:60vmin;
+    width:70vmin; 
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    gap:1.5vmin;
+}
+.box{
+    height:18vmin;
+    width:20vmin;
+    border:none;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgb(0,0,0,0.2);
+}
+.box{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color:#b0413e;
+    background-color: #ffffc7;
+}
+.reset{
+    padding:1rem;
+    font-size:1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    display:none; /* stays hidden until game starts */
+    margin-top: 1.5rem; /* change here: spacing from board */
+}
+#new-btn{
+    padding:1rem;
+    font-size:1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+}
+#msg{
+    width:29vmax;
+    color:#ffffc7;
+    font-size:5vmin;
+    background-color: #0d0d0d;
+    border-radius: 1rem;
+}
+.msg-container{
+    height:99vmin;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:5px;
+}
+.hide{
+    display:none;
+}
+
+.forX{
+    color: #d72638;
+}
+.forO{
+    color:#005f5f;
+
+}
+.jsButton{
+    font-size: 2.0rem;
+    font-weight: bold;
+    height:60px;
+    width:200px;
+}
+.game-container {
+    display: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.select {
+  text-align: center;
+  margin-top: 2rem;
+  
+}
+.select button {
+  display:flex;
+  flex-direction: column;
+  margin:0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.selectBox{
+    height:580px;
+    width:540px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:1rem;
+    margin: 2rem auto;
+}
